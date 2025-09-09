@@ -8,11 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Top banner -->
-    <!-- banner color; tweak if you like -->
 
-
-    <!-- Buttons moved below the banner -->
     <TextView
         android:id="@+id/banner_title"
         android:layout_width="415dp"
@@ -51,7 +47,7 @@
         android:backgroundTint="@null"
         android:background="#B0B0B0"/>
 
-    <!-- List between buttons and the bottom input -->
+
     <ListView
         android:id="@+id/city_list"
         android:layout_width="0dp"
@@ -61,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Add-city input + confirm (shown when ADD CITY is pressed) -->
+
     <EditText
         android:id="@+id/input_city"
         android:layout_width="0dp"
